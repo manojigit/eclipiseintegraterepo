@@ -19,6 +19,7 @@ public class SecondPostExampleTest {
 	public void testcase() {
 
 		System.out.println("Test Commit ");
+		System.out.println("Adding new line");
 		RequestSpecification requestSpecification =	RestAssured.given();
 
 		requestSpecification.contentType("application/json");
