@@ -18,7 +18,7 @@ public class SecondPostExampleTest {
 	@Test
 	public void testcase() {
 
-
+		System.out.println("Test Commit ");
 		RequestSpecification requestSpecification =	RestAssured.given();
 
 		requestSpecification.contentType("application/json");
